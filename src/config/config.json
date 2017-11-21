@@ -1,0 +1,20 @@
+{
+	"host": "localhost",
+	"port": 8001,
+	"loggerConfig": {
+        "appenders": {
+            "console": { "type": "console" },
+            "dateFile": {
+                "type": "dateFile",
+                "filename": "logs/image_renderer_common.log",
+                "pattern": "-yyyy-MM-dd",
+                "alwaysIncludePattern": false
+            }
+        },
+        "categories": {
+            "IMAGE_RENDERER": { "appenders": ["dateFile"], "level": "ALL" },
+            "default": { "appenders": ["console"], "level": "ALL" }
+        },
+        "printLineNumber": true
+    }
+}

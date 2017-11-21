@@ -1,0 +1,21 @@
+{
+  "name": "image-renderer",
+  "version": "1.0.0",
+  "description": "This is a simple image renderer application",
+  "main": "server.js",
+  "author": "Ganesh",
+  "scripts": {
+    "startImageRenderer": "forever start server.js",
+    "stopImageRenderer": "forever stop server.js",
+    "restartImageRenderer": "forever restart server.js",
+    "stopallServers": "forever stopall server.js"
+  },
+  "engines": {
+    "node": "8.1.3"
+  },
+  "dependencies": {
+    "nconf": "0.8.4",
+    "forever": "0.15.3",
+    "log4js": "2.0.1"
+  }
+}
