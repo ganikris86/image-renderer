@@ -12,3 +12,6 @@
   a. Start the image renderer - "npm run startImageRenderer
   b. Stop the image renderer - "npm run stopImageRenderer"
   c. Restart the image renderer - "npm run restartImageRenderer"
+6. Once the server is started, images can be rendered with a URL like below,
+  <hostname>:<port>/<TENANT_CODE>/images?img=<IMAGE_NAME>
+  Example URL: http://localhost:8001/Facebook/images?img=P1040148.JPG
